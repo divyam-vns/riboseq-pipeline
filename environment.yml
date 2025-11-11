@@ -1,5 +1,27 @@
 name: ribo-seq
 channels:
-  - bioconda
   - conda-forge
+  - bioconda
   - defaults
+dependencies:
+  - python=3.10
+  - biopython
+  - sra-tools
+  - fastqc
+  - multiqc
+  - cutadapt
+  - bowtie2
+  - star
+  - subread  # provides featureCounts
+  - r-base
+  - r-essentials
+  - r-ribowaltz
+  - r-deseq2
+  - r-pheatmap
+  - r-optparse
+  - samtools
+  - wget
+  - gzip
+  - pip
+  - pip:
+    - pyyaml

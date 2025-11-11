@@ -1,0 +1,11 @@
+.env*
+__pycache__/
+*.pyc
+*.sra
+*.fastq
+*.fastq.gz
+qc_reports/
+star_index/
+*.bam
+*.bai
+counts.txt

@@ -1,0 +1,5 @@
+name: ribo-seq
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
